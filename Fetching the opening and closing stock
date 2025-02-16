@@ -1,0 +1,9 @@
+select sum(decode(ch_add_sub, 'A', nu_qty, -1*nu_qty)) from month_summary 
+where vc_comp_code='02' 
+and vc_item_code = 'BPBPGG00002' 
+and vc_wh_code = '1'
+and nvl(ch_cancel_flag, 'N') <> 'Y'
+and dt_document_date >= '01-jan-2025'
+and dt_document_date <= '08-feb-2025'
+
+select 20 + 3 from dual
