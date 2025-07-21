@@ -1,0 +1,14 @@
+tasklist | findstr java
+
+
+kill like below
+
+
+taskkill /PID 5248 /F
+taskkill /PID 5296 /F
+taskkill /PID 7132 /F
+taskkill /PID 3616 /F
+taskkill /PID 2688 /F
+taskkill /PID 8612 /F
+taskkill /PID 8892 /F
+taskkill /PID 8976 /F
