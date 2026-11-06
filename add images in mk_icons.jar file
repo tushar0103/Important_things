@@ -1,3 +1,18 @@
 cd /d "C:\Users\Tushar\Desktop\Projects_folder bkp\Gourmandine server backup\Ebiz1\icons"
 
 jar -uvf mak_icons.jar *.gif
+
+
+-c = Create JAR
+
+
+
+-u = Update/add to existing JAR
+
+
+
+-v = Verbose (show files)
+
+
+
+-f = Specify JAR filename
